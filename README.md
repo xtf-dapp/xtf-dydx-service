@@ -25,8 +25,7 @@ Note: Currently the app is configured to run on local port 8001
 ### API Specs
 
 <details>
-
-    <summary>GET All Markets:</summary>
+    <summary>GET All Markets</summary>
 
 Request Type: GET
 
