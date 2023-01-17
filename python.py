@@ -8,10 +8,6 @@ PORT = 8001
 
 app = Flask(__name__)
 
-@app.route('/hello/<name>')
-def hello_name(name):
-  return 'Hello %s!' % name
-
 @app.route('/api/markets')
 def get_markets():
   public_client = Client(
