@@ -13,6 +13,7 @@ Install the dependencies
 ```
 pip3 install Flask
 pip3 install dydx-v3-python
+pip3 install -U flask-cors
 ```
 
 Start the app:
